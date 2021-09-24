@@ -1,0 +1,24 @@
+/*========== Google Fonts ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+/*========== Font and Typography ==========*/
+    --body-font: 'Open Sans', sans-serif;
+    --poppins-font: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #c3c3c3;
+    font-family: var(--poppins-font);
+}
+
+ul, ol, li {
+    list-style: none;
+}
